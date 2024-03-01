@@ -52,6 +52,13 @@
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
        </dependency>
+
+        <dependency>
+               <groupId>io.r2dbc</groupId>
+               <artifactId>r2dbc-spi</artifactId>
+               <version>0.8.1.RELEASE</version> <!-- Use the appropriate version -->
+        </dependency>
+
     </dependencies>
     
     <build>
