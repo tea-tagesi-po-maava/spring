@@ -1,4 +1,4 @@
-package com.mt.springmongo;
+package com.example.myapplication;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

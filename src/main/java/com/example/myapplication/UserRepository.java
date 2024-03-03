@@ -1,4 +1,5 @@
-package com.mt.springmongo;
+package com.example.myapplication;
+
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
