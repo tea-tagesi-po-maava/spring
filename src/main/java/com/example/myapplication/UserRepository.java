@@ -1,6 +1,6 @@
-package com.example.myapplication;
+package com.example.myapplication.repository;
 
-
+import com.example.myapplication.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
@@ -9,4 +9,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  * @author Srinath
  */
 public interface UserRepository extends PagingAndSortingRepository<User, String> {
+    // You can define additional methods here if needed
 }
