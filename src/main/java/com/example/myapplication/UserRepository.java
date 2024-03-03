@@ -1,13 +1,7 @@
 package com.example.myapplication.repository;
 
-import com.example.myapplication.User;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import com.example.myapplication.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * Repository for saving new and retrieving existing {@link User}s from MongoDB
- *
- * @author Srinath
- */
-public interface UserRepository extends PagingAndSortingRepository<User, String> {
-    // You can define additional methods here if needed
+public interface UserRepository extends JpaRepository<User, Long> {
 }
